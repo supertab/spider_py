@@ -1,0 +1,2 @@
+- translate word or sentence by youdao.com
+- enter 'q' quit the program and save the result at wordList.txt
