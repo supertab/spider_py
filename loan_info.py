@@ -71,6 +71,8 @@ def list2csv(data, filename):
         temp_str += '\n'
     with open(filename, 'w') as f:
         f.write(temp_str)
-url = 'file:///home/zooo/webdata/2016.html' # the path of download html
-company_list= get_url(url)
-data, err_list= get_msg(company_list)
+
+if __name__=='__main__':
+    url = 'file:///home/zooo/webdata/2016.html' # the path of download html
+    company_list= get_url(url)
+    data, err_list= get_msg(company_list)
